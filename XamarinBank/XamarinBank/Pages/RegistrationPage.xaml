@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBank.Pages.RegistrationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="How we can call you?" FontSize="30" Padding="10"/>
+            <Frame Background="gray" CornerRadius="20" Padding="0" Margin="5,0,5,5">
+                <Entry Placeholder="First name" Margin="10" />
+            </Frame>
+            <Frame Background="gray" CornerRadius="20" Padding="0" Margin="5,10,5,5">
+                <Entry Placeholder="Second name" Margin="10" />
+            </Frame>
+            <Frame Background="gray" CornerRadius="20" Padding="0" Margin="5,10,5,5">
+                <Entry Placeholder="Last name" Margin="10" />
+            </Frame>
+            <Grid>
+                <Button x:Name="GoBackButton" Text="Go back" CornerRadius="10" HorizontalOptions="StartAndExpand" Margin="10,0,0,0" Clicked="GoBackButtonOnClick"/>
+                <Button x:Name="NextStepButton" Text="Next step" CornerRadius="10" HorizontalOptions="EndAndExpand" Margin="0,0,10,0"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
