@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dSueQXkkzKfH/EfY0tc7C2LsxATTZHkY8bWbjpbUrQH0ic9JfusaKlzlLpDDHd8gprMcwT+X0jjJaaEqlV861g==",
+  "dgSpecHash": "cKHZHOtwXzS/h0DLBjelIu3sXL/6KMJ5Vt3xL30AXt0kbslKythin21YGsxe0pHRJpxoEVTFajHFDVHQjv452g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denni\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

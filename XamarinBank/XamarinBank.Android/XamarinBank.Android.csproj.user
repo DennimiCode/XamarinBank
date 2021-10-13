@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SelectedDevice>HMD Global Nokia 6.1</SelectedDevice>
     <ActiveDebugProfile>HMD Global Nokia 6.1</ActiveDebugProfile>
+    <DefaultDevice>Pixel_2_API_28</DefaultDevice>
   </PropertyGroup>
 </Project>

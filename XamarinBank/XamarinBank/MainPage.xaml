@@ -5,14 +5,40 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" Margin="10" CornerRadius="20">
-            <Label Text="Welcome to Xamarin Bank!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label 
+                Text="Welcome to Xamarin Bank!"
+                TextColor="White" 
+                FontSize="36"
+                HorizontalTextAlignment="Center"/>
         </Frame>
-        <Label Text="Log in: " FontSize="Title" Padding="10"/>
+        <Label
+            Text="Log in: "
+            FontSize="Title"
+            Padding="10"/>
         <StackLayout>
-            <Entry x:Name="UserLoginEntry" Placeholder="User name" Margin="10" FontSize="20" HorizontalTextAlignment="Center"/>
-            <Entry x:Name="UserPasswordEntry" Placeholder="Password" Margin="10" IsPassword="True" FontSize="20" HorizontalTextAlignment="Center"/>
-            <Label x:Name="RegisterLabel" Text="Not our client yet? Register!" Margin="12,0,0,0" HorizontalOptions="CenterAndExpand"/>
-            <Button Text="Log in" Margin="10,0,0,0" CornerRadius="10" HorizontalOptions="CenterAndExpand"/>
+            <Entry
+                x:Name="UserLoginEntry" 
+                Placeholder="User name" 
+                FontSize="20"
+                Margin="10"
+                HorizontalTextAlignment="Center"/>
+            <Entry
+                x:Name="UserPasswordEntry"
+                Placeholder="Password" 
+                IsPassword="True" 
+                FontSize="20"
+                Margin="10"
+                HorizontalTextAlignment="Center"/>
+            <Label 
+                x:Name="RegisterLabel"
+                Text="Not our client yet? Register!"
+                Margin="12,0,0,0"
+                HorizontalOptions="CenterAndExpand"/>
+            <Button 
+                Text="Log in"
+                CornerRadius="10"
+                Margin="10,0,0,0"
+                HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
 
     </StackLayout>

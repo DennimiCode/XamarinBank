@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinBank.Pages.IdCardPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label
+                    Text="Let us know your id-card details"
+                    FontSize="30"
+                    Padding="10" />
+                <Frame
+                    Background="gray"
+                    CornerRadius="15"
+                    Padding="0"
+                    Margin="5,10,5,5">
+                    <Entry
+                        Placeholder="Passport series"
+                        Margin="10"
+                        Keyboard="Numeric" />
+                </Frame>
+                <Frame
+                    Background="gray"
+                    CornerRadius="15"
+                    Padding="0"
+                    Margin="5,10,5,5">
+                    <Entry
+                        Placeholder="Passport number"
+                        Margin="10"
+                        Keyboard="Numeric" />
+                </Frame>
+                <Grid>
+                    <Label
+                        Text="Date of issue: "
+                        FontSize="18"
+                        Margin="10,0,0,0" />
+                    <Frame
+                        Background="gray"
+                        CornerRadius="15"
+                        Padding="0"
+                        Margin="5,30,10,10">
+                        <DatePicker
+                            Date="01.01.1900"
+                            Margin="10" />
+                    </Frame>
+                </Grid>
+                <Frame
+                    Background="gray"
+                    CornerRadius="15"
+                    Padding="0"
+                    Margin="5,10,10,10">
+                    <Entry
+                        Placeholder="Issued by"
+                        Margin="10" />
+                </Frame>
+                <Frame
+                    Background="gray"
+                    CornerRadius="15"
+                    Padding="0"
+                    Margin="5,10,10,10">
+                    <Entry
+                        Placeholder="Division code"
+                        Margin="10"
+                        Keyboard="Numeric" />
+                </Frame>
+                <Frame
+                    Background="gray"
+                    CornerRadius="15"
+                    Padding="0"
+                    Margin="5,10,10,10">
+                    <Entry
+                        Placeholder="Place of birth"
+                        Margin="10" />
+                </Frame>
+                <Grid>
+                    <Button
+                        x:Name="GoBackButton"
+                        Text="Go back"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        HorizontalOptions="StartAndExpand"
+                        Margin="10,0,0,10"
+                        Clicked="GoBackButtonOnClicked" />
+                    <Button
+                        x:Name="NextStepButton"
+                        Text="Next step"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        HorizontalOptions="EndAndExpand"
+                        Margin="0,0,10,10"
+                        Clicked="NextStepButtonOnClicked"/>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

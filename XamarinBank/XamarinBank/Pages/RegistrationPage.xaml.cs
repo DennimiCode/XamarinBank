@@ -22,5 +22,10 @@ namespace XamarinBank.Pages
         {
             Application.Current.MainPage = new MainPage();
         }
+
+        private void NextStepButtonOnClick(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new Pages.IdCardPage();
+        }
     }
 }
