@@ -12,7 +12,7 @@ namespace XamarinBank
             InitializeComponent();
             _registerLabelTap.Tapped += (sender, args) =>
             {
-                Application.Current.MainPage = new Pages.RegistrationPage();
+                Navigation.PushModalAsync(new Pages.RegistrationPage());
             };
             RegisterLabel.GestureRecognizers.Add(_registerLabelTap);
         }

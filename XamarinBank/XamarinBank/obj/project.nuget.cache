@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VeCoFh9rEdwxqym40g+Hm4X7kbGL4UXlNHQEmabufAaLWP0gCnaYHZYNDTsn9JYQrWFUBt4vVj/+4fh3XxxQ+w==",
+  "dgSpecHash": "CFS0rSKUxstWecqpFvXGWlxQcLxrLKnWvH3Ht/RElyjBC+lqsPX0ZnFtz+FlYJB7ZuLl87gpELFlVtR7OxFl/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
+  "projectFilePath": "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

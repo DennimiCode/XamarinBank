@@ -1,45 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinBank.Pages.RegistrationPage">
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XamarinBank.Pages.RegistrationPage">
     <ContentPage.Content>
         <StackLayout>
             <Label
                 Text="How we can call you?"
-                FontSize="30" 
-                Padding="10"/>
+                FontSize="30"
+                Padding="10" />
             <Frame
                 Background="gray"
-                CornerRadius="15" 
-                Padding="0" 
+                CornerRadius="15"
+                Padding="0"
                 Margin="5,0,5,5">
-                <Entry 
+                <Entry
                     Placeholder="First name"
-                    Margin="10"/>
+                    Margin="10" />
             </Frame>
             <Frame
                 Background="gray"
-                CornerRadius="15" 
-                Padding="0" 
+                CornerRadius="15"
+                Padding="0"
                 Margin="5,10,5,5">
-                <Entry 
-                    Placeholder="Second name" 
-                    Margin="10"/>
+                <Entry
+                    Placeholder="Second name"
+                    Margin="10" />
             </Frame>
             <Frame
                 Background="gray"
-                CornerRadius="15" 
-                Padding="0" 
+                CornerRadius="15"
+                Padding="0"
                 Margin="5,10,5,5">
-                <Entry 
-                    Placeholder="Last name" 
-                    Margin="10"/>
+                <Entry
+                    Placeholder="Last name"
+                    Margin="10" />
+            </Frame>
+            <Frame
+                Background="gray"
+                CornerRadius="15"
+                Padding="0"
+                Margin="5,10,5,5">
+                <Picker
+                    Title="Sex"
+                    Margin="10"
+                    FontSize="18">
+                    <Picker.Items>
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                    </Picker.Items>
+                </Picker>
             </Frame>
             <Grid>
-                <Label 
+                <Label
                     Text="Birthday date: "
                     FontSize="18"
-                    Margin="10,0,0,0"/>
+                    Margin="10,0,0,0" />
                 <Frame
                     Background="gray"
                     CornerRadius="15"
@@ -51,20 +67,20 @@
                 </Frame>
             </Grid>
             <Grid>
-                <Button 
-                    x:Name="GoBackButton" 
-                    Text="Go back" 
-                    CornerRadius="10" 
+                <Button
+                    x:Name="GoBackButton"
+                    Text="Go back"
+                    CornerRadius="10"
                     Margin="10,0,0,0"
-                    HorizontalOptions="StartAndExpand" 
-                    Clicked="GoBackButtonOnClick"/>
-                <Button 
-                    x:Name="NextStepButton" 
-                    Text="Next step" 
+                    HorizontalOptions="StartAndExpand"
+                    Clicked="GoBackButtonOnClick" />
+                <Button
+                    x:Name="NextStepButton"
+                    Text="Next step"
                     CornerRadius="10"
                     Margin="0,0,10,0"
                     HorizontalOptions="EndAndExpand"
-                    Clicked="NextStepButtonOnClick"/>
+                    Clicked="NextStepButtonOnClick" />
             </Grid>
         </StackLayout>
     </ContentPage.Content>

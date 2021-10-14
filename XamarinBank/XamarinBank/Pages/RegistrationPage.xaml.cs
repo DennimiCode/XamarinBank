@@ -20,12 +20,12 @@ namespace XamarinBank.Pages
 
         private void GoBackButtonOnClick(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new MainPage();
+            Navigation.PopModalAsync(true);
         }
 
         private void NextStepButtonOnClick(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new Pages.IdCardPage();
+            Navigation.PushModalAsync(new Pages.IdCardPage());
         }
     }
 }
