@@ -8,39 +8,31 @@
             <Label
                 Text="Let us know about you location"
                 FontSize="30"
-                Padding="10" />
+                Padding="10"/>
             <Grid>
-                <Frame
-                    Background="gray"
-                    CornerRadius="15"
-                    Padding="0"
-                    Margin="10,10,10,25">
+                <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,10,10,25">
                     <Entry
                         Placeholder="Registration address"
-                        Margin="10" />
+                        Margin="10"/>
                 </Frame>
                 <Label
                     Text="Coincides with the place of residence"
                     FontSize="16"
                     VerticalOptions="EndAndExpand"
                     HorizontalOptions="StartAndExpand"
-                    Margin="30,0,0,0" />
+                    Margin="30,0,0,0"/>
                 <CheckBox
                     x:Name="LocationCheckBox"
                     VerticalOptions="EndAndExpand"
                     HorizontalOptions="EndAndExpand"
                     Margin="0,0,75,-6"
-                    CheckedChanged="LocationCheckBoxOnCheckedChanged" />
+                    CheckedChanged="LocationCheckBoxOnCheckedChanged"/>
             </Grid>
-            <Frame
-                Background="gray"
-                CornerRadius="15"
-                Padding="0"
-                Margin="10,10,10,25">
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,10,10,25">
                 <Entry
                     x:Name="ResidentialAddressEntry"
                     Placeholder="Residential address"
-                    Margin="10" />
+                    Margin="10"/>
             </Frame>
             <Grid>
                 <Button
@@ -50,7 +42,7 @@
                     HeightRequest="50"
                     HorizontalOptions="StartAndExpand"
                     Margin="10,0,0,10"
-                    Clicked="GoBackButtonOnClicked" />
+                    Clicked="GoBackButtonOnClicked"/>
                 <Button
                     x:Name="NextStepButton"
                     Text="Next step"
@@ -58,7 +50,7 @@
                     HeightRequest="50"
                     HorizontalOptions="EndAndExpand"
                     Margin="0,0,10,10"
-                    Clicked="NextStepButtonOnClicked" />
+                    Clicked="NextStepButtonOnClicked"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

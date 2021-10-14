@@ -1,20 +1,21 @@
 ﻿using System;
-using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace XamarinBank
 {
     public partial class MainPage : ContentPage
     {
-        private TapGestureRecognizer _registerLabelTap = new TapGestureRecognizer();
+        private readonly TapGestureRecognizer _registerLabelTap = new TapGestureRecognizer();
         public MainPage()
         {
             InitializeComponent();
-            _registerLabelTap.Tapped += (sender, args) =>
-            {
-                Navigation.PushModalAsync(new Pages.RegistrationPage());
-            };
+            _registerLabelTap.Tapped += RegisterLabelOnTapped;
             RegisterLabel.GestureRecognizers.Add(_registerLabelTap);
+        }
+
+        private async void RegisterLabelOnTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Pages.RegistrationPage());
         }
     }
 }

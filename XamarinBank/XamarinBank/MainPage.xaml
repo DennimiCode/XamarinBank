@@ -11,24 +11,25 @@
                 FontSize="36"
                 HorizontalTextAlignment="Center"/>
         </Frame>
-        <Label
-            Text="Log in: "
-            FontSize="Title"
-            Padding="10"/>
+        <Label Margin="30"/>
         <StackLayout>
-            <Entry
-                x:Name="UserLoginEntry" 
-                Placeholder="User name" 
-                FontSize="20"
-                Margin="10"
-                HorizontalTextAlignment="Center"/>
-            <Entry
-                x:Name="UserPasswordEntry"
-                Placeholder="Password" 
-                IsPassword="True" 
-                FontSize="20"
-                Margin="10"
-                HorizontalTextAlignment="Center"/>
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,0,10,10">
+                <Entry
+                    x:Name="UserLoginEntry" 
+                    Placeholder="User name" 
+                    FontSize="20"
+                    Margin="10"
+                    HorizontalTextAlignment="Center"/>
+            </Frame>
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,0,10,10">
+                <Entry
+                    x:Name="UserPasswordEntry"
+                    Placeholder="Password" 
+                    IsPassword="True" 
+                    FontSize="20"
+                    Margin="10"
+                    HorizontalTextAlignment="Center"/>
+            </Frame>
             <Label 
                 x:Name="RegisterLabel"
                 Text="Not our client yet? Register!"

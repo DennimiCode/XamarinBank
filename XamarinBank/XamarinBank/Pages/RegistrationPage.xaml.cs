@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -18,14 +13,14 @@ namespace XamarinBank.Pages
             InitializeComponent();
         }
 
-        private void GoBackButtonOnClick(object sender, EventArgs e)
+        private async void GoBackButtonOnClick(object sender, EventArgs e)
         {
-            Navigation.PopModalAsync(true);
+            await Navigation.PopModalAsync(true);
         }
 
-        private void NextStepButtonOnClick(object sender, EventArgs e)
+        private async void NextStepButtonOnClick(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new Pages.IdCardPage());
+            await Navigation.PushModalAsync(new Pages.IdCardPage());
         }
     }
 }

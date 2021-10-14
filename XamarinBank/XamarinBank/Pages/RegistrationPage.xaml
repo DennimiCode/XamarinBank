@@ -8,39 +8,23 @@
             <Label
                 Text="How we can call you?"
                 FontSize="30"
-                Padding="10" />
-            <Frame
-                Background="gray"
-                CornerRadius="15"
-                Padding="0"
-                Margin="5,0,5,5">
+                Padding="10"/>
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,0,10,10">
                 <Entry
                     Placeholder="First name"
-                    Margin="10" />
+                    Margin="10"/>
             </Frame>
-            <Frame
-                Background="gray"
-                CornerRadius="15"
-                Padding="0"
-                Margin="5,10,5,5">
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,10,10,10">
                 <Entry
                     Placeholder="Second name"
-                    Margin="10" />
+                    Margin="10"/>
             </Frame>
-            <Frame
-                Background="gray"
-                CornerRadius="15"
-                Padding="0"
-                Margin="5,10,5,5">
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,10,10,10">
                 <Entry
                     Placeholder="Last name"
-                    Margin="10" />
+                    Margin="10"/>
             </Frame>
-            <Frame
-                Background="gray"
-                CornerRadius="15"
-                Padding="0"
-                Margin="5,10,5,5">
+            <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,10,10,10">
                 <Picker
                     Title="Sex"
                     Margin="10"
@@ -55,15 +39,11 @@
                 <Label
                     Text="Birthday date: "
                     FontSize="18"
-                    Margin="10,0,0,0" />
-                <Frame
-                    Background="gray"
-                    CornerRadius="15"
-                    Padding="0"
-                    Margin="5,30,5,5">
+                    Margin="10,0,0,0"/>
+                <Frame Background="gray" CornerRadius="15" Padding="0" Margin="10,30,10,10">
                     <DatePicker
                         Date="01.01.1900"
-                        Margin="10" />
+                        Margin="10"/>
                 </Frame>
             </Grid>
             <Grid>
@@ -73,14 +53,14 @@
                     CornerRadius="10"
                     Margin="10,0,0,0"
                     HorizontalOptions="StartAndExpand"
-                    Clicked="GoBackButtonOnClick" />
+                    Clicked="GoBackButtonOnClick"/>
                 <Button
                     x:Name="NextStepButton"
                     Text="Next step"
                     CornerRadius="10"
                     Margin="0,0,10,0"
                     HorizontalOptions="EndAndExpand"
-                    Clicked="NextStepButtonOnClick" />
+                    Clicked="NextStepButtonOnClick"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

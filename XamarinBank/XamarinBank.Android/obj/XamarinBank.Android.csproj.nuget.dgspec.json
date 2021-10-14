@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj": {}
+    "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj": {}
   },
   "projects": {
-    "C:\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj": {
+    "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
+        "projectUniqueName": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
         "projectName": "XamarinBank.Android",
-        "projectPath": "C:\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\XamarinBank\\XamarinBank\\XamarinBank.Android\\obj\\",
+        "projectPath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\XamarinBank.Android.csproj",
+        "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj": {
-                "projectPath": "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj"
+              "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj": {
+                "projectPath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj"
               }
             }
           }
@@ -56,21 +56,21 @@
         }
       }
     },
-    "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj": {
+    "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
+        "projectUniqueName": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
         "projectName": "XamarinBank",
-        "projectPath": "C:\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\XamarinBank\\XamarinBank\\XamarinBank\\obj\\",
+        "projectPath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\XamarinBank.csproj",
+        "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denni\\Desktop\\XamarinBank\\XamarinBank\\XamarinBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\denni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -80,6 +80,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +124,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
